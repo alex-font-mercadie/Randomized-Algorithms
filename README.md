@@ -13,6 +13,7 @@ To compile the `galtonbox.cc` file, use the following command in your terminal:
 
 ```bash
 g++ -o galtonbox galtonbox.cc
+```
 
 ## Execution
 
