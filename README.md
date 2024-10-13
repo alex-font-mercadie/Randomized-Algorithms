@@ -13,3 +13,7 @@ To compile the `galtonbox.cc` file, use the following command in your terminal:
 
 ```bash
 g++ -o galtonbox galtonbox.cc
+
+## Execution
+
+To run the program, provide two integer inputs: n (the size of the Galton box) and N (the number of balls dropped).
