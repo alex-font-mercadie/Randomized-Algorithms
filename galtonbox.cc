@@ -45,7 +45,7 @@ int main() {
 	
 	srand(time(0));
 	cout.setf(ios::fixed);
-	cout.precision(5);
+	cout.precision(8);
 	
 	int n, N;
 	cin >> n >> N;
