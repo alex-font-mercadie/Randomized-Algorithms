@@ -1,4 +1,4 @@
-# Choice Strategies Experiment
+# Ballanced Allocation
 
 This repository contains an implementation of different bin selection strategies for the **choice problem**, along with experiments that compare their performance. The experiments simulate the distribution of loads across bins using various strategies and visualize the results.
 
