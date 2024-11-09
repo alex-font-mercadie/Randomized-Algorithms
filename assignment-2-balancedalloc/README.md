@@ -39,3 +39,18 @@ pip install matplotlib
 ```
 
 Note: random and statistics come pre-installed with Python.
+
+### Installing Jupyter Notebook
+
+#### Option 1: Using pip
+
+1. Open a terminal (or Command Prompt on Windows).
+2. Install Jupyter using pip by running the following command:
+
+   ```bash
+   pip install jupyter
+   ```
+
+#### Option 2: Using Anaconda
+If you have the Anaconda distribution installed, Jupyter Notebook comes pre-installed. If not, you can install Anaconda from the link above.
+
