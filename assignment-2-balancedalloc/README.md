@@ -2,25 +2,9 @@
 
 In this assignment we compare the performance of different different allocation strategies of balls into bins. The experiments simulate the distribution of loads across bins using various strategies and visualize the results.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Getting Started](#getting-started)
-- [Experiment Details](#experiment-details)
-- [How to Run the Experiments](#how-to-run-the-experiments)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Introduction
-
 This Python code simulates set of experiments to empirically study and compare the gap Gn for (at lest) the three strategies one-, two- and (1 + β)-choices (with different values for the parameter β), as the number n of balls grows, until we reach the heavy-load scenario n = m2. It also simulates the the experiments in the b-batched setting, where balls arrive in batches of b balls, and the allocation strategy is applied as before, but the information on the load of the bins is the one available at the beginning of the batch
 
 The primary goal is to compare the average gap between the maximum load and the load of each bin during the simulation.
-
-## Getting Started
-
-To get started with this project, follow the steps below to clone the repository and install the necessary dependencies.
 
 ### Prerequisites
 
