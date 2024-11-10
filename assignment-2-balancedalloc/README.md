@@ -6,6 +6,8 @@ This Python code simulates set of experiments to empirically study and compare t
 
 The primary goal is to compare the average gap between the maximum load and the load of each bin during the simulation.
 
+The last cell of the jupyter notebook allows you to run the experiment with the different allocartion strategies.
+
 ### Prerequisites
 
 - Python 3.6+: Download from [python.org](https://www.python.org/downloads/)
