@@ -144,10 +144,8 @@ def generate_zipf_sequence(n, alpha, N):
 def process_synthetic_data(n, alpha, N, iters=1000):
     """Process synthetic Zipf-distributed dataset."""
     Z = generate_zipf_sequence(n, alpha, N)
-    print(Z)
     
     Z = [str(z) for z in Z]
-    
 
     # Call the abstracted process_estimation function
     process_estimation(Z, n, iters)
@@ -163,16 +161,10 @@ def main():
         make_comparison_table(txt_file, dat_file, 100)
 
     # Handle synthetic data
-    n = 100
+    n = 10000
     alpha = 1.5
-    N = 1000
+    N = 100000
     process_synthetic_data(n, alpha, N, 1000)
-    
-    # Handle synthetic data
-    n = 1000
-    alpha = 1.5
-    N = 10000
-    process_synthetic_data(n, alpha, N, 10000)
 
 if __name__ == "__main__":
     main()
